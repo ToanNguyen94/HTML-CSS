@@ -1,0 +1,94 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Cabin', sans-serif;
+}
+.container{
+	max-width: 60%;
+	margin: 0 auto;
+	border: 5px solid #9FA0A1;
+}
+.d-flex{
+	display: flex;
+	align-items: center;
+}
+/* header */
+.header{
+	background: #4666b0;
+	justify-content: space-between;
+}
+.icon{
+	color: white;
+}
+.header__icon-tele{
+	margin-left: 30px;
+}
+.header__icon-mess{
+	margin-right: 30px ;
+}
+.header__seach{
+	margin: 20px 0;
+	padding: 8px 245px;
+	background: #335089;
+	border-radius: 20px;
+	color: #d6d7e8;
+}
+.header__seach-icon{
+	margin-right: 10px;
+}
+/* content */
+.content__header{
+	justify-content: space-between;
+	margin: 15px 0;
+}
+.content__header-img{
+	color: #4666b0;
+	margin-left: 30px;
+}
+.content__header-info{
+	margin-right: 390px;
+}
+.content__header-info-name{
+	margin: 5px;
+    font-size: 20px;
+}
+.content__header-info-date{
+	color: #9FA0A1;
+	margin: 5px;
+}
+.content__header-nav{
+	margin-right: 30px;
+	color: #9FA0A1;
+}
+.content__status{
+	font-size: 20px;
+    margin: 15px 30px 30px;
+}
+
+.content__img img{
+	width: 100%;
+}
+
+.content__icon{
+    justify-content: space-between;
+    padding: 10px 25px;
+	border-bottom: 1px solid #9FA0A1;
+}
+.content__icon-like .heart, .kiss{
+	color: #ED4764;
+}
+.content__icon-like .like{
+	color: #4666b0;
+}
+.content__view{
+	margin-right: 350px;
+}
+
+.content__footer{
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.content__footer-icon span{
+	font-size: 22px;
+	margin: 0 5px;
+	color: #9FA0A1;
+}

@@ -1,0 +1,11 @@
+.child {
+	display: none;
+}
+
+p {
+	color: chocolate;
+}
+
+.parent:hover .child {
+	display: block;
+}

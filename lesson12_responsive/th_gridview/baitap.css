@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.section1,
+.section9 {
+	height: 50px;
+}
+
+.section1 {
+	background-color: yellowgreen;
+}
+
+.section2,
+.section3,
+.section4,
+.section5,
+.section6,
+.section7,
+.section8 {
+	height: 300px;
+}
+
+.section2 {
+	background-color: antiquewhite;
+}
+
+.section3 {
+	background-color: aqua;
+}
+
+.section4 {
+	background-color: aquamarine;
+}
+
+.section5 {
+	background-color: blue;
+}
+
+.section6 {
+	background-color: blueviolet;
+}
+
+.section7 {
+	background-color: brown;
+}
+
+.section8 {
+	background-color: burlywood;
+}
+
+.section9 {
+	background-color: tomato;
+}

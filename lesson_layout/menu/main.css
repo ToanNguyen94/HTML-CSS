@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	width: 70%;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+.menu__row ul li{
+	width: 200px;
+	background: rgb(149 196 197);
+	position: relative;
+	padding: 10px 0;
+	border: 2px solid gray;
+	border-bottom: none;
+	text-align: center;
+}
+.menu__row ul li:last-child{
+	border: 2px solid gray
+}
+.menu__row ul li ul{
+	position: absolute;
+	top: -1px;
+	left: 198px;
+	display: none;
+}
+.menu__row ul li:hover ul{
+	display: block;
+}
+.menu__row ul li:hover{
+	background: rgb(14, 187, 115);
+}
+
+.menu__col .menu{
+	display: flex;
+}
+.menu__col ul li{
+	width: 200px;
+	background: rgb(149 196 197);
+	position: relative;
+	padding: 10px 0;
+	border: 2px solid gray;
+	text-align: center;
+}
+.menu__col ul li ul{
+	position: absolute;
+	display: none;
+	left: -2px;
+    top: 40px
+}
+.menu__col ul li:hover ul{
+	display: block;
+}
+.menu__col ul li:hover{
+	background: rgb(14, 187, 115);
+}

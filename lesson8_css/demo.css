@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	background-image: url(/images/trang.jpg);
+	background-size: 100% 100%;
+	width: 800px;
+	height: 500px;
+	text-align: center;
+	position: relative;
+	transition: width 3s, height 3s, transform 3s;
+	overflow: hidden;
+}
+
+
+.moon {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 50px;
+	right: 110px;
+}
+
+
+.title {
+	color: white;
+	top: 20px;
+	position: absolute;
+	transform: translateX(-100%);
+	transition: transform .5s ease;
+}
+
+.section1 pre,
+.section2 pre {
+	font-size: 20px;
+	font-weight: 600;
+	white-space: pre-line;
+	color: white;
+}
+
+.section1,
+.section2 {
+	position: absolute;
+	border: none;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, .5);
+	padding: 10px 40px;
+	transform: translateX(0);
+}
+
+
+.section1 {
+	top: 30%;
+	padding: 10px 51px;
+	transform: translateX(230%);
+	transition: transform .8s ease;
+}
+
+.section2 {
+	bottom: 5%;
+	transform: translateX(-220%);
+	transition: transform .8s ease;
+}
+
+.main:hover .title {
+	transform: translateX(230%);
+}
+
+.main:hover .section1,
+.main:hover .section2 {
+	transform: translateX(65%);
+}
